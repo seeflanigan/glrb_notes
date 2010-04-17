@@ -1,0 +1,101 @@
+* Node.js and Rails
+http://www.slideshare.net/mbleigh/nodejs-and-ruby
+
+Michael Bleigh
+Intridia
+@mbleigh
+http://mbleigh.com/
+
+** What is Node.js?
+   Evented IO for JavaScript
+   Wins on the client and the server
+
+** Where does Node.js shine?
+   It's great at concurrency
+   Asynchronous everything (no waiting for input/output or a request to complete)
+   Everything is evented
+
+   bit.ly/nodejs-fstream 
+
+   JavaScript is great for this, because it provides closures,
+   anonymous functions, asychronous processes 
+
+   You can use the same set of functionality on the server and client
+   side, and share code libraries in both environments
+
+** Ruby?
+   Rapid dev
+   Rapid testing
+   (don't switch from Ruby to Node)
+
+** When to Node
+Real-Time (web) applications
+
+** Why Real-Time
+   Better on the server, no responding to thousands of requests
+   Better for the user, updates are fast because they are always
+   connected
+   More buzzwords!
+
+   Functions can be hooked to socket events
+
+** WebSockets 
+    send messages back and forth between client and server without
+    request/response cycles
+
+    web-socket-js on github (flash based socket for browsers that
+    don't support WebSockets.)  
+
+** Why JS for WebSocket server?
+   Client code is already JS
+   You have to write the browser code in JS, if the server is also JS
+   then they are the same language, and the server is just an
+   extension of that.  More opportunities for sharing code.
+
+** It's a young tool
+   4 or 5 competing libraries
+
+** How to ACTUALLY use it
+   Use Redis as the bridge: 
+   it's fast, awesome, key-value store, memcached on steroids, has
+   data structures; lists, sets, publish/subscribe support... it's
+   like a swiss army knife for your application. 
+
+** See the example slides
+** Ephemeral Peer-to-Peer
+   Chat applications, message passing, no need to persist chats. 
+
+** Tip of the iceberg
+   Node is new
+   Growing fast
+   Asynchronous programming means thinking differently about your
+   applications processes (avoid the 'nested callback mess')
+   Find resources about doing evented programming
+
+   howtonode.org 
+
+** Node for Ruby?
+   EventMachine; evented Ruby programmming
+   Thin (there is an asynchronous version)
+   Not QUITE as fast as Node.js
+   Cramp; built on EventMachine
+
+   Use what feels right. 
+
+** Questions?
+
+http://rfw.posterous.com/how-nodejs-saved-my-web-application
+
+*** How does it compare to comet?
+
+    comet == long polling, last-gen version of the problem that
+    WebSockets solves (WebSocket negates reliance on timeout request
+    hacks)
+
+*** Testing Frameworks?
+    JSpec
+*** Problems with MySQL due to the blocking issue
+    There are libs that will help address this
+    MySQL is based on blocking
+
+    

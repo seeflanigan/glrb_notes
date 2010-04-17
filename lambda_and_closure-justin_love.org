@@ -1,0 +1,76 @@
+* Lambda and Closure: Horrors of the Computer Science Mythos
+  Justin Love
+  @wondible
+
+  http://justinlove.name/
+  http://justinlove.name/presentations/index.html
+
+  http://justinlove.name/presentations/rubyclosureglrb.pdf
+
+  slides@JustinLove.name
+  delicious.com/rauros/closure
+
+  Code examples should run under 1.9.1
+
+** Outline
+** Coding Horror
+** Lenses
+   ways of seeing things
+
+   Alonzo Church, lambda calculus; function definition, function application
+
+   lambda: anonymous function
+   lambda: rack application?
+   lambda: an object which implements a protocol?
+   lambda: (almost) a proc constructor?
+
+** Patterns
+   ways of applying things
+
+** Dependency injection
+   Net::LDAP
+   
+** Containment
+   Exceptions in RSpec
+
+   raise? { :foo }
+
+   Contain::Exceptions
+
+   Rails respond_to
+
+   A block is a hidden parameter which can be made explicit using
+   &block
+
+** lambda is a closure
+   first class function with free variables bound in the lexical
+   environment
+
+   lambda != &block/proc
+
+*** A closure is: 
+    Code (executable steps) + Scope (lookup table from variables to
+    values)
+    
+    A form of mythos (knowledge that is transportable to different
+    contexts/languages)
+
+*** Zombie scope
+    The same code will run with different scope
+
+*** Shared scope
+    You could accomplish this with Ruby's instance variables
+    Or, closures could be used to build an ad-hoc object system
+
+
+
+** Blocks
+   Don't use return if you don't have to
+   \|block, arguments\|
+   1. KISS
+   2. Avoid name collisions
+
+   Avoid Kernel.proc
+
+Lamba: think anononymous function
+&block/proc: think control structure

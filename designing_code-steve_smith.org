@@ -1,10 +1,10 @@
 * Desiging Code:
 Beautiful, simple, and usable text
+http://www.slideshare.net/orderedlist/designing-code
 
 Steve Smith
 @orderedlist
 steve@orderedlist.com
-slides will be on slideshare
 
 How can we apply traditionally visual design concepts to code?
 

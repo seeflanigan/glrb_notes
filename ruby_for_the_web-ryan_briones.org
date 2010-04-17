@@ -1,0 +1,87 @@
+* Ruby for the Web
+  Ryan Briones
+  @ryanbriones
+  brionesandco.com/ryanbriones
+
+  Obtiva
+
+  Former PHP & Perl developer
+
+** Rails abstracted away the boring
+   And provided a good pattern for doing web applications
+
+   Rails is NOT Ruby for beginners
+
+   Rails is NOT always the best tool for the job
+   Too much architecture
+   Hard to test
+   Hard to drive using tests (ActiveRecord model)
+
+   It's magic(ally complex!) - hard to understand for a Ruby beginner
+   Painful to debug and scale, for beginners
+
+   Rails can still fit into the story (it's still relevant, but it's
+   part of a greater story.)
+
+** Perl CGI
+   Learning Perl book
+
+   It's something today's Ruby developers should maybe think about. 
+
+** Ruby CGI 
+   The first example is not necessarily testable, or idiomatic Ruby
+   The second example is more idiomatic, and testable
+
+** Rack
+   Powers web applications
+   Based on a python lib
+
+   takes any argument that responds to #call
+   
+   the body of #call should be an object which responds to #each, and returns a
+   string (at some point)
+
+   (eg, a lambda)
+
+   Rack::Request, now we have some awesome parameter parsing goodness
+
+   Rack::ContentLength will return the content length, now our
+   application is compliant.
+
+   Rack gives us middleware.
+
+** Middleware
+   Rack applications that can be stacked on other Rack applications
+   We can set up a bunch of mini applications that we can glue
+   together to do one bigger job.
+
+   It's a great way to decouple layers.
+
+   So, how do we access different applications via different URLs?
+
+   We need routing
+
+** Sinatra
+   We can visually see the routing and how it will work
+   We have simplified returning content to the client 
+   
+   Provides an easy way to implement a REST-like URL scheme
+
+   Doesn't necessarily apply itself well to big production
+   applications, with lots of different routes.
+
+** MyApplication < Sinatra::Base
+   We can stack bunches of these small middlewares and get a full
+   application, with good separation of logic.
+
+** Rails?
+   How does Rails fit into all of this? 
+   Who knows.  But, let's try not to do Rails as the first thing we go
+   to all of the time, as Ruby developers.  Let's try to let it be a
+   part of a larger application stack.  
+
+   Most of Rails is built up on other Rack middleware
+
+** There are
+   other (better?) ways to learn Ruby (for the web) with TDD and emergent design in
+   mind, if we aren't so dependent on starting with Rails.

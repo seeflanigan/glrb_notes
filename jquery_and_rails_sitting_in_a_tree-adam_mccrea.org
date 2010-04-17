@@ -1,0 +1,164 @@
+* jQuery and Rails, Sitting in a Tree
+Adam McCrea
+@adamlogic
+adam@edgecase.com
+
+** Building blocks of jQuery
+   jQuery + Rails
+
+   What's really happening?
+
+   jQuery = awesome.
+   it doesn't try to mimic another language or style
+   
+   focused on DOM
+   DOM: Document object model
+     This is how an HTML/XML document is structure, and how javascript
+   navigates a document.
+
+   1. select HTML elements
+   2. call methods on them
+   3. repeat
+
+*** Breakdown:
+   jQuery: $("p.neat").addClass("ohmy").show("slow"); 
+
+   $ - feels magical, it's not.  it is a function (valid variable &
+   function name in JS). in jQuery, $() == jQuery()
+
+   jQuery in no-conflict mode won't clobber $
+
+   $ takes a CSS selector $("p.neat")
+
+   returns all the paragraphs ( <p> ) with class 'neat' as a jQuery
+   wrapper object.
+
+   $ always returns a jQuery wrapper!  it's a collection that may or
+   may not contain element(s), < >, <element>, <elements>
+
+   #addClass, #show is a function that operates on elements, and returns the
+   result as a jQuery wrapper object.
+
+   (check out the API docs. in firebug. dogfood. nice!)
+
+   API: look @ wrapper methods, and selectors. 
+
+*** Events
+    If we just stuck a bunch of jQuery code in the page, it would be
+    executed as soon as the page was loaded.  
+
+    In the client, events are grouped and available to the page code
+
+    Inline event handlers, can't be manually triggered, or
+    unbound. Restrictive... Obtrusive.
+    <a onclick="alert('I was clicked!'):"> click me! </a>
+
+    jQuery
+    $("a.clickme").bind("click", function(event)...
+
+    event handlers are passed an event object (which is made
+    cross-browser by jQuery)
+
+    event.target: element that was acted upon
+
+    If we want to act on the target, it has to be passed to the jQuery
+    event: $(event.target)
+
+*** onload method?
+    Problem:  it doesn't fire until all page elements are loaded
+
+    Instead: use DOM ready method
+    $(document).ready(function())
+    $(function()); is a shortcut for this, it will execute when the
+    DOM is ready. 
+
+*** Custom events!?
+    great way to define and decouple functionality and bind it other
+    actions (eg when lighbox is opened/closed...)
+
+*** Build DOM elements on the fly
+    Dollar can take a string, and since it always returns a jQuery
+    wrapper...
+
+    $("<p>I'm new here</p>"); create a new <p> with content
+    $("<p>").html("I'm new here"); create an empty <p> then add the content.
+
+    Now we can act on this Paragraph element, even if it's not
+    displayed on the page yet. 
+
+    We can select the container (div) where we want to display the
+    content. (or, we can do paragraph.appendTo("#container"))
+
+*** Events revisited
+    Stuff bound to containers won't happen for new content in the
+    container.
+
+    So, use the #live method, which allows all dynamically added
+    content to inherit the desired behaviour.
+
+*** Utilities
+    trim, each, just a few convenience methods (it doesn't try to
+    rewrite JS.)
+
+*** Dollar is a function, but it also has properties
+    $.trim will work because $ is a function, but in JS, functions are
+    just objects.
+
+*** Extending jQuery
+    $.fn.your_custom_method
+
+    slick!
+
+    Adam uses it all the time, to make code more readable.
+    
+    It's about readability and reuse, it's a great way to organize
+    your code.
+
+
+** Rails + JS
+   History of JS and Rails
+
+*** Rails 1.0
+   Initially, Rails gave helper methods that would build
+   ... inline js, ajax helpers, prototype specific, on the
+   fly... bloated, naaaaaasty.  There was no power to define
+   and control multiple events. The API was inconsistent.  
+
+*** Rails 1.1
+   RJS provided the ability to generate javascript with Ruby
+   The abstraction was an extra DSL to learn
+
+*** Rails 2.3.5
+   Same. jRails... encourages bad behaviour, uses jQuery to do it.
+
+   Rails 3
+   No more inline JS, no more confusing API
+   Generates valid HTML5
+
+   JS adapters:
+   public/javascripts/rails.js (Prototype)
+   github.com/rails_jquery-ujs (jQuery)
+
+   app/views/products/update.js.erb
+   raw javascript file with embedded ruby templates
+
+*** gotchas:
+    csrf_meta_tag which will include the token for forms built on the
+    fly (or, expect fail.)
+   
+   
+
+
+    
+
+
+*** Rails ???
+    What can we steal from Rails 3 to make previous version better?
+    jQuery JS driver
+    JS with embedded Ruby templates
+
+    but, there are no data-remote attributes or csrf meta tags
+    (csrf = cross site remote forgery)
+    BUT we can create these ourselves, pretty easily.
+
+sample application on github: github/edgecase/jquery_rails2_demo

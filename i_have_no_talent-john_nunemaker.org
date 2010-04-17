@@ -1,0 +1,133 @@
+* I Have No Talent
+  John Nunemaker
+  Ordered List
+  john@orderedlist.com
+  @jnunemaker
+
+  calendaraboutnothing.com
+
+  The rant that struck a nerve (blog post)
+
+  Someone said "I wish I had your talent"
+  John said "I don't have talent, I have practice."
+
+** First Nerve
+   The Gods
+
+   In Ruby/Rails culture, there's a belief that some people are
+   "blessed" (Yehuda)
+
+** Second Nerve
+   The Mortals
+
+   The laymen who have not been "blessed" with the talent
+   (They were encouraged by John's post.)
+
+** The Path
+   We are all on it (at different points)
+
+   There are things we can do to get better, improve...
+
+   Remember from whence you came
+
+   Remember that you can do more
+
+** Observations
+*** Learned from Generic to Specific
+   Started with PHP, Ruby, to identitymap, etc.
+
+*** Transitioned from Learning to Doing
+   "What we have to learn to do, we learn by doing" - Aristotle
+
+*** 2003-2010: 
+   40+ oss projects that led to growth
+   100+ websites/applications
+   470+ blog posts
+   a LOT of code
+   github graveyard (these are the projects he'd make excuses about if
+   anyone saw them.)
+
+** You must 
+*** Measure
+   Yourself, against your past self
+
+   Johns Path:
+   2K3 - HTML, CSS, Flash, Photoshop, FTP
+   johnnunemaker.com, oakprariefarms.com
+
+   2K4 - College Grad, PHP, MySQL, JS, Standards
+   a lot of php/mysql admin stuff
+
+   2K5 - Ajax, ColdFusion, Oracle, Prototype, Scriptaculous
+   addictedtonew.com, mysql table wrapper, addicted to feedburner and
+   flicker libs
+
+   2K6 - Rails, Ruby, Terminal, HTTP Requests, Parsing XML...
+   first rails site, railstips.org, nortredame forum (against the grain!)
+
+   When you are stuck, and feel like you're too stupid to do something
+   (parsing XML...) keep reading, keep learning, find your way through
+   it.
+
+   2K7 - Deployment, Delegration, ActionScript
+   conductor, nd.edu, snitch, lorem, scrobbler (last.fm), mirrored
+   (for magnolia), web services
+
+   2K8 - jQuery, merb, git(hub), pythong
+   googlebase, googlereader, statwhore, httparty, user_stamp,
+   happymapper
+
+   2K9 - oath, mongodb, single page apps, include/extend, inheritance, /t|b/dd
+   columbus, google-weather, crack, mongomapper, harmony
+
+   2K10 - proxies, identity map, composition, design patterns,
+   refactoring, sinatra
+   mongotips.com, wand, canable, joint, gemwhois
+
+*** Choose
+   to work hard, and practice <b>deliberately</b>
+
+   "Greatness is not a function of circumstances... it is larely a
+   matter of conscious choice" - Jim Collins
+   (Good to Great)
+
+   Malcom Gladwell - Outliers (book about mathematics.)
+
+*** Work Hard
+   Work on specific things. Making a conscious decision to struggle. 
+
+   The Art of Learning - Josh Waitzkin (book)
+
+   "Great companies... [focused on] what not to do, and what to stop
+   doing." - Jim Collins (Good to Great)
+
+   There is not enough time in the day to get everything done.
+   Consciously decide what to stop doing.  Wrote down goals, decided
+   what would give the most value for the time. Identified obvious
+   commitments (feed the family, and the commitments that he made -
+   nortre dame.)
+
+   Short tail: client work
+   Long tail: recurring income
+
+   The Changelog (podcast) 
+
+   If you're not using something, give it away.  
+
+*** Practice Deliberately
+   Geoffrey Colvin - What It Takes To Be Great
+
+   Observing and measuring results
+   Making appropriate adjustments
+   Deliberately choosing what to get better at
+   
+** Talent
+   is not intelligence
+   is not motivation
+
+** Greatness
+   is freely available to you and to everyone (What It Takes To Be
+   Great article)
+
+** Measure
+   That which gets measured gets improved

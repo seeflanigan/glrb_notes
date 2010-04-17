@@ -1,0 +1,94 @@
+* Decently Exposing Your Views and Controllers
+
+Matt Yoho
+@mattyoho
+yoho@hashrocket.com
+
+@voxdolo/Stephen Caudill wrote this code
+
+github/voxdolo/decent_exposure
+
+** idiom 
+   Codewise, it's simple.  It's an idiom for dealing with controller
+   and view methods
+
+   common:  finder calls are everywhere in controllers
+
+   put them in a before filter? not what they're there for
+
+   instance variables in views? yuck.
+
+   gem install decent_exposure
+   it's a plugin.
+
+** let
+   derived from rspec's let
+
+   resource_controller abuse!
+   like: ability to 'magically' setup resource variables/collections
+   fail: not necessarily resful crud
+
+** look
+
+   class FooController < AppController
+   def show
+     @foo = Foo.find
+   end
+
+   class FooController < AppController
+     expose :foo
+
+     def show; end
+   end
+
+   # takes a block
+   class FooController < AppController
+     expose( :foo ) { Foo.do_stuff }
+
+     def show; end
+   end
+
+** memoization
+   @widget ||= Widget.find(id)
+
+   decent exposure does it for you.
+
+** hide_action/helper_method
+   method in activecontroller to cleanly expose the controller
+
+** custom default
+   default_exposure do
+     Foo.for_user(current_user).find(stuff)
+   end
+   
+an inherited block allows inheritance up the controller hierarchy
+
+stashes a hash of resources that point to a block, that block is lazy
+evaluated once, when the resource is invoked.
+
+** foo.instance_eval(&block)
+
+** trivia!
+   difference between instance_exec in 1.8.6 or 1.8.7?
+   there is no instance_exec in 1.8.6!
+
+   arrived in 1.9.1, backported to 1.8.7
+
+** helper method
+   no locals are passed, but you can access them as though they were
+
+   rescue_from clause can be used to help clean up exception handling
+
+** lot of ground to cover in a short time... need to find his slides
+
+** testing
+   assigns[:posts] won't work
+
+   since we're doing integration testing, it's a non-issue
+
+** questions
+   challenges or downsides to using this plugin?
+   must take care when doing this for a new record, new and create
+   have a natural namespace collision.  the exposure block can be
+   written to solve this. (watch out for accidentally absorbing
+   validation errors)

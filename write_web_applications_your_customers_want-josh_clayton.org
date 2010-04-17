@@ -1,0 +1,119 @@
+* Write Web Applications Your Customers Want! 
+Josh Clayton
+@joshuaclayton
+
+He's using showoff! github/schacon/showoff
+
+http://github.com/joshuaclayton/Write-Web-Applications-Your-Customers-Want
+
+** What is cucumber
+   a vegetable
+   allows programmers to describe an application's behaviour in a
+   straightforward way
+
+   Features + Scenarious
+   Business readable DSL
+
+   Good for ensuring the application works as expected
+   Not great for fast tests
+
+   No mocking/stubbing... data is persisted, images are processed
+
+   Testjour and Hydra exist to mitigate speed issues (by distributing
+   tests to other nodes using Bonjour... holy rad!)
+
+   Also bad for testing JS
+   UNLESS you use Selenium (slow)
+   Env.js, Johnson, HolyGrail...
+
+   Integration testing of JS behaviour with Cucumber?  Yes please.
+   (eg testing autocomplete...)
+
+** Outside-in Development
+   Describes the needs of stakeholders
+   Fulfills only what the end-users describe
+
+   Doesn't waste time on code that doesn't directly impact scenarios
+   Autonomous changes, smaller commits
+
+** Acceptance tests are important, because
+   they test behaviour from an interaction standpoint
+   easier to locate flaws during the process of completing a scenario
+   controller and model tests aren't written to cover everything
+
+   Acceptance tests > Model View & Controller tests combined!
+
+** Web applications != code libraries
+   Without testing behaviour, you're not REALLY testing the
+   application.
+   100% coverage doesn't mean shit!
+
+   JUST model + controller tests are also meaningless.
+
+   Behaviour is king
+
+   [ crazy usage example ]
+
+** Testing behaviour
+   It's easier to describe and test (failing) behaviour for complex
+   situations
+
+   that | smoke (put that in your pipe...)
+
+** Augmentation
+   Cucumber should augment your test sutie
+   Model and ctonroller tests are the "in" of outside-in development
+   He rareley writees controller tests if they are RESTful
+
+** Cucumber
+   provides business value:
+   well written scenarios == faster dev
+   less time per feature
+   more done per iteration
+   happy customers == referrals, etc...
+   lower cost of dev
+
+   makes you more money, life easier, customers happier!
+
+** Usage
+   features/steps/factory girl!
+
+   steps can take tables
+
+** Webrat steps
+   You COULD write 90% of scenarios with webrat
+   BUT this wouldn't be DRY so, don't.
+
+   Factory Girl provides Cucumber steps
+   require 'factory_girl/step_definitions'
+   Gives steps that map to factories you have defined
+
+** Mocking
+   CAN be ok in your scenarious
+   for external APIs (shamrack, fakeweb)
+   credit card auth api?
+   geolocation api?
+
+   Allows you to test code branching logic with various scenarios
+   
+   Drawbacks:
+   3rd party APIs can change and invalidate your tests
+
+** Abusing Cucumber (is great!)
+   HTML output of cuke scenarios
+   Tag scenarios, and run only tagged ones
+   Transform - need to look @ this further
+   Timecop (Delorian?), before & after blocks (mock & unmock Time, or
+   FAIL!)
+
+** Wrap up
+   Cucumber speeds dev time
+   Keeps you on track
+   Helps manage client expectations
+
+   Gems to watch:
+   Capybara
+   Harmony 
+   
+   SpecJour, parallelization for tests... Turns 20min suite into a
+   5min suite.

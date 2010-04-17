@@ -1,0 +1,65 @@
+* Introduction to Distributed Programming: The Ruby Way
+  Auvi Rahman
+  auvi@utuallyhuman.com
+
+  Mechanical Engineer
+  Grand Rapids
+
+  Fluid dynamics
+  Dist Analog Computing
+  Robotics 
+  This guy is way smarter than me. 
+
+  "Distributed programming is like network programming -- only the
+  audience is diffferent." - Lucas Carlson
+
+** Options
+   DRb
+   Rinda
+
+   Those are available in the std library.
+   There are tons of others.
+
+** DRb (DRuby)
+   100% ruby
+   part of stdlib
+
+   2-tier arch
+   Server <----> Client
+
+   DRb.start_service(...)
+   DRb.thread.join
+
+   include DRbUndumped in your class: prevents serialization (pass by
+   reference instead of passing by value)
+
+** Rinda
+   Implements the Linda distributed paradigm
+   100% Ruby
+   part of stdlib
+
+   3-tier arch
+
+   RingServer, Service, Client (promiscuous communication)
+
+   Possible to run several RingServers concurrently
+
+   Services publish tuples about available services to the RingServer, RingServer publishes
+   to the TupleSpace
+
+*** What is TupleSpace?
+    Like a bulletin board that keeps track of available services
+
+
+
+** A journey of a thousand miles
+begins with a single step
+
+RabbitMQ, Delayed Job, Starling, MagLev, 
+
+rubyPVM or MPI Ruby for number crunching 
+Starfish for map/reduce, hadoop
+MagLev, Erlectricity distributed objects
+Starling, RabbitMQ, distributed worker queues
+Politics, helps with writing distributed applications
+

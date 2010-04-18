@@ -1,10 +1,11 @@
 * Node.js and Rails
-http://www.slideshare.net/mbleigh/nodejs-and-ruby
+  Slides: http://www.slideshare.net/mbleigh/nodejs-and-ruby
 
-Michael Bleigh
-Intridia
-@mbleigh
-http://mbleigh.com/
+** Presenter
+   Michael Bleigh
+   Intridia
+   @mbleigh
+   http://mbleigh.com/
 
 ** What is Node.js?
    Evented IO for JavaScript

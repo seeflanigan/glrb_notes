@@ -1,17 +1,18 @@
 * Introduction to Distributed Programming: The Ruby Way
-  Auvi Rahman
-  auvi@utuallyhuman.com
-
-  Mechanical Engineer
-  Grand Rapids
-
-  Fluid dynamics
-  Dist Analog Computing
-  Robotics 
-  This guy is way smarter than me. 
-
   "Distributed programming is like network programming -- only the
   audience is diffferent." - Lucas Carlson
+
+** Presenter
+   Auvi Rahman
+   auvi@utuallyhuman.com
+
+   Mechanical Engineer
+   Grand Rapids
+
+*** Background:
+    Fluid dynamics
+    Distribut Analog Computing
+    Robotics 
 
 ** Options
    DRb
@@ -49,7 +50,6 @@
 
 *** What is TupleSpace?
     Like a bulletin board that keeps track of available services
-
 
 
 ** A journey of a thousand miles

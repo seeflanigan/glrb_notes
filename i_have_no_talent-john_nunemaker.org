@@ -1,17 +1,17 @@
 * I Have No Talent
-  http://www.slideshare.net/jnunemaker/glrb-i-have-no-talent
+  Slides: http://www.slideshare.net/jnunemaker/glrb-i-have-no-talent
 
-  John Nunemaker
-  Ordered List
-  john@orderedlist.com
-  @jnunemaker
+** Presenter
+   John Nunemaker
+   Ordered List
+   @jnunemaker
+   john@orderedlist.com
 
-  calendaraboutnothing.com
+** How it all started...
+   The rant that struck a nerve (blog post)
 
-  The rant that struck a nerve (blog post)
-
-  Someone said "I wish I had your talent"
-  John said "I don't have talent, I have practice."
+   Someone said "I wish I had your talent"
+   John said "I don't have talent, I have practice."
 
 ** First Nerve
    The Gods

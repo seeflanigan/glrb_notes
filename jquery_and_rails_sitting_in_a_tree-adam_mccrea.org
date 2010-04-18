@@ -1,7 +1,9 @@
 * jQuery and Rails, Sitting in a Tree
-Adam McCrea
-@adamlogic
-adam@edgecase.com
+
+** Presenter
+   Adam McCrea
+   @adamlogic
+   adam@edgecase.com
 
 ** Building blocks of jQuery
    jQuery + Rails
@@ -113,7 +115,6 @@ adam@edgecase.com
     
     It's about readability and reuse, it's a great way to organize
     your code.
-
 
 ** Rails + JS
    History of JS and Rails

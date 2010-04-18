@@ -1,10 +1,9 @@
 * Write Web Applications Your Customers Want! 
-Josh Clayton
-@joshuaclayton
+Slides: http://github.com/joshuaclayton/Write-Web-Applications-Your-Customers-Want
 
-He's using showoff! github/schacon/showoff
-
-http://github.com/joshuaclayton/Write-Web-Applications-Your-Customers-Want
+** Presenter
+   Josh Clayton
+   @joshuaclayton
 
 ** What is cucumber
    a vegetable

@@ -1,11 +1,12 @@
 * Ruby for the Web
-  Ryan Briones
-  @ryanbriones
-  brionesandco.com/ryanbriones
 
-  Obtiva
+** Presenter
+   Ryan Briones
+   Obtiva
+   @ryanbriones
+   brionesandco.com/ryanbriones
 
-  Former PHP & Perl developer
+   Former PHP & Perl developer
 
 ** Rails abstracted away the boring
    And provided a good pattern for doing web applications

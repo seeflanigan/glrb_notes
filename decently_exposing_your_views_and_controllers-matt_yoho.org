@@ -1,12 +1,11 @@
 * Decently Exposing Your Views and Controllers
+  github/voxdolo/decent_exposure
+  @voxdolo/Stephen Caudill wrote the gem
 
-Matt Yoho
-@mattyoho
-yoho@hashrocket.com
-
-@voxdolo/Stephen Caudill wrote this code
-
-github/voxdolo/decent_exposure
+** Presenter
+   Matt Yoho
+   @mattyoho
+   yoho@hashrocket.com
 
 ** idiom 
    Codewise, it's simple.  It's an idiom for dealing with controller

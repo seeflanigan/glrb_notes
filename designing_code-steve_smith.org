@@ -1,11 +1,13 @@
 * Desiging Code:
 Beautiful, simple, and usable text
-http://www.slideshare.net/orderedlist/designing-code
+Slides: http://www.slideshare.net/orderedlist/designing-code
 
-Steve Smith
-@orderedlist
-steve@orderedlist.com
+** Presenter
+   Steve Smith
+   @orderedlist
+   steve@orderedlist.com
 
+** Focus
 How can we apply traditionally visual design concepts to code?
 
 Design is not just visual, it's a thought process.
@@ -32,7 +34,6 @@ Design is not just visual, it's a thought process.
    Sometimes we are the end user (the ones using the code.)  Sometimes
    it's the public (using an API.)  Sometimes it's devs on our team.
    Sometimes it's open source!  Other devs are the user.
-
 
 ** Balance
    Alignment and order
@@ -76,7 +77,6 @@ Design is not just visual, it's a thought process.
    Clean Code:
    descriptive method names
    do one thing
-
 
 ** Clarity
    Simplicity and Understanding
@@ -142,7 +142,6 @@ Design is not just visual, it's a thought process.
       if foo? && foo == bar && baz != bah
     end
    
-
 ** Harmony
    Integration and experience
 
@@ -205,7 +204,6 @@ application alone!  (Extension, not modification)
     It wasn't difficult to write, but made the UX much better.  They
     got there by thinking about how things should look to the user.
     
-
 ** Wrap Up
    Write, then simplify, then write, then simplify.
 
@@ -229,7 +227,6 @@ application alone!  (Extension, not modification)
     Think through the design and how to simplify visually,
     programmatically, and how in terms of experience.
     
-
 ** Questions
 *** Steves heroes of good code:
    John Nunemaker

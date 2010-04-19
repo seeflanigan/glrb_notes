@@ -2,12 +2,12 @@
 [Slides](http://www.slideshare.net/orderedlist/designing-code)
 
 ## Presenter 
-   ![Steve
+![Steve
    Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg
    "Steve Smith") 
-   [Ordered List](http://orderedlist.com/) 
-   [@orderedlist](http://twitter.com/orderedlist) 
-   steve@orderedlist.com
+[Ordered List](http://orderedlist.com/) 
+[@orderedlist](http://twitter.com/orderedlist) 
+steve@orderedlist.com
 
 ## Focus
    How can we apply traditionally visual design concepts to code?

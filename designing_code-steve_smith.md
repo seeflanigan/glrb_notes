@@ -21,7 +21,7 @@
       * [Harmonize with User Experience](#harmonize_with_ux)
       * [Harmonize Constantly](#harmonize_constantly
 
-[id]: focus "## Focus"
+<h2 id="focus">Focus</h2>
    How can we apply traditionally visual design concepts to code?   
    Design is not just visual, it's a thought process.   
    

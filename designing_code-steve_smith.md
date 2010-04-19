@@ -1,42 +1,46 @@
 # Designing Code: Beautiful, simple, and usable text
-## [Slides](http://www.slideshare.net/orderedlist/designing-code)
+  **bold**[Slides](http://www.slideshare.net/orderedlist/designing-code)
 
 ## Presenter 
-![Steve
-   Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg
-   "Steve Smith")   
-Steve Smith  
-[Ordered List](http://orderedlist.com/)   
-[@orderedlist](http://twitter.com/orderedlist)   
-steve@orderedlist.com   
+   ![Steve
+      Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg
+         "Steve Smith")   
+
+         [Steve Smith](http://orderedlist.com/who-we-are/)  
+         [Ordered List](http://orderedlist.com/)   
+         [@orderedlist](http://twitter.com/orderedlist)   
+         [steve@orderedlist.com](mailto:steve@orderedlist.com)   
 
 ## Focus
-   How can we apply traditionally visual design concepts to code?
-
-   Design is not just visual, it's a thought process.
+   How can we apply traditionally visual design concepts to code?   
+   Design is not just visual, it's a thought process.   
 
 ## Why design your code?
-   Reasons to care about beauty
+   Reasons to care about beauty   
 
-   "Design is the application of intent... an antidote to accident" - Robert L Peters
+   * "Design is the application of intent... an antidote to accident" - Robert L Peters
+   * Design is intentional.
+   * Accident == Bug!
 
-   Design is intentional.
+   So, good design reduces bugs.  
 
-   Accident == Bug!
-
+### Sanity   
    Design for your own sanity.  Your sanity is underrated.  Keep
-   yourself sane, and make it more pleasant for yourself to code.
+   yourself sane, and make it more pleasant for yourself to code. 
 
+### Growth
    Design for future growth.  Growth also applies with respect to how
-   many people will work on the code.  
+   many people will work on the code. 
 
-   Six months from now, you are different... skills, thought
-   processes...  Design for yourself in six months.
+   Six months from now, you will be a different person, with different skills, thought
+   processes...  Design for your future self. 
 
-   User Experience:
+### User Experience
    Sometimes we are the end user (the ones using the code.)  Sometimes
    it's the public (using an API.)  Sometimes it's devs on our team.
-   Sometimes it's open source!  Other devs are the user.
+   Sometimes it's open source!  Other devs are the user.  Think about
+   the entire user-experience up front, and let your design reflect
+   that.  
 
 ** Balance
    Alignment and order

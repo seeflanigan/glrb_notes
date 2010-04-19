@@ -1,5 +1,5 @@
 # Designing Code: Beautiful, simple, and usable text
-  **bold**[Slides](http://www.slideshare.net/orderedlist/designing-code)
+  ** [Slides](http://www.slideshare.net/orderedlist/designing-code) **
 
 ## Presenter 
    ![Steve Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg "Steve Smith")   
@@ -9,7 +9,6 @@
    [steve@orderedlist.com](mailto:steve@orderedlist.com)   
 
 ## Contents
-   * [Focus][focus]
    * [Focus](#focus)
    * [Why Design Your Code?](#why)
      * [Sanity](#design_for_sanity)

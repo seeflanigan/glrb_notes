@@ -1,10 +1,12 @@
-# Desiging Code:
-## Beautiful, simple, and usable text
-   [Slides](http://www.slideshare.net/orderedlist/designing-code)
+# Designing Code: Beautiful, simple, and usable text
+[Slides](http://www.slideshare.net/orderedlist/designing-code)
 
-## Presenter
-   ![Steve Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg)   [Ordered List](http://orderedlist.com/)
-   [@orderedlist](http://twitter.com/orderedlist)
+## Presenter 
+   ![Steve
+   Smith](http://farm5.static.flickr.com/4030/4533226349_99338ee20a.jpg
+   "Steve Smith") 
+   [Ordered List](http://orderedlist.com/) 
+   [@orderedlist](http://twitter.com/orderedlist) 
    steve@orderedlist.com
 
 ## Focus
@@ -12,7 +14,7 @@
 
    Design is not just visual, it's a thought process.
 
-** Why design your code?
+## Why design your code?
    Reasons to care about beauty
 
    "Design is the application of intent... an antidote to accident" - Robert L Peters

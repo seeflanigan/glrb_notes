@@ -9,6 +9,7 @@
    [steve@orderedlist.com](mailto:steve@orderedlist.com)   
 
 ## Contents
+   * [Focus][focus]
    * [Focus](#focus)
    * [Why Design Your Code?](#why)
      * [Sanity](#design_for_sanity)
@@ -17,9 +18,11 @@
    * [Balance: Alignment and Order](#balance)
    * [Clarity: Simplicity and Understanding](#clarity)
    * [Harmony: Integration and Experience](#harmony)
-      * [Harmonize with Integration](#harmonize_with_integration)
-      * [Harmonize with User Experience](#harmonize_with_ux)
-      * [Harmonize Constantly](#harmonize_constantly
+     * [Harmonize with Integration](#harmonize_with_integration)
+     * [Harmonize with User Experience](#harmonize_with_ux)
+   * [Wrap Up](#wrapup)
+     * [Before you start](#wrapup_before)
+     * [Simplicity wins](#wrapup_simplicity)
 
 <h2 id="focus">Focus</h2>
    How can we apply traditionally visual design concepts to code?   

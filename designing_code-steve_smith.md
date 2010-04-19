@@ -8,11 +8,24 @@
    [@orderedlist](http://twitter.com/orderedlist)   
    [steve@orderedlist.com](mailto:steve@orderedlist.com)   
 
-## Focus
+## Contents
+   * [Focus](#focus)
+   * [Why Design Your Code?](#why)
+     * [Sanity](#design_for_sanity)
+     * [Growth](#design_for_growth)
+     * [User Experience](#design_for_ux)
+   * [Balance: Alignment and Order](#balance)
+   * [Clarity: Simplicity and Understanding](#clarity)
+   * [Harmony: Integration and Experience](#harmony)
+      * [Harmonize with Integration](#harmonize_with_integration)
+      * [Harmonize with User Experience](#harmonize_with_ux)
+      * [Harmonize Constantly](#harmonize_constantly
+
+## Focus {#focus}
    How can we apply traditionally visual design concepts to code?   
    Design is not just visual, it's a thought process.   
 
-## Why design your code?
+## Why design your code? {#why}
    Reasons to care about beauty   
 
    * "Design is the application of intent... an antidote to accident" - Robert L Peters
@@ -39,7 +52,7 @@
    the entire user-experience up front, and let your design reflect
    that.  
 
-** Balance
+## Balance
    Alignment and order
 
    We will constantly learn how to do this better.

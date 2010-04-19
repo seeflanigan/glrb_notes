@@ -21,11 +21,11 @@
       * [Harmonize with User Experience](#harmonize_with_ux)
       * [Harmonize Constantly](#harmonize_constantly
 
-## Focus {#focus}
+## Focus ## {#focus}
    How can we apply traditionally visual design concepts to code?   
    Design is not just visual, it's a thought process.   
-
-## Why design your code? {#why}
+   
+## Why design your code? {#
    Reasons to care about beauty   
 
    * "Design is the application of intent... an antidote to accident" - Robert L Peters

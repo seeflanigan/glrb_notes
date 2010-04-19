@@ -53,8 +53,7 @@
    the entire user-experience up front, and let your design reflect
    that.  
 
-## Balance
-   Alignment and order
+## Balance: Alignment and order
 
    We will constantly learn how to do this better.
 
@@ -167,8 +166,7 @@ extract the conditional into its own method
       if foo? && foo == bar && baz != bah
     end
    
-<h2 id="harmony">Harmony</h2>
-Integration and experience
+## Harmony: Integration and experience
 
 Developing desiging and writing your code so it works cohesively and uniformly.
 
@@ -255,6 +253,7 @@ Think through the design and how to simplify visually, programmatically, and in 
     
 ## Questions
 Who are Steve's heroes of good code:
+
 * John Nunemaker
 * Rick Olsen
    

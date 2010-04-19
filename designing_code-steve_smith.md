@@ -25,8 +25,9 @@
 ## Focus
    How can we apply traditionally visual design concepts to code?   
    Design is not just visual, it's a thought process.   
-   
-## Why design your code? {#
+
+[id]: why "Why design your code?"
+## Why design your code?
    Reasons to care about beauty   
 
    * "Design is the application of intent... an antidote to accident" - Robert L Peters
@@ -35,6 +36,7 @@
 
    So, good design reduces bugs.  
 
+[id]: design_for_sanity "Design for sanity"
 ### Sanity   
    Design for your own sanity.  Your sanity is underrated.  Keep
    yourself sane, and make it more pleasant for yourself to code. 
